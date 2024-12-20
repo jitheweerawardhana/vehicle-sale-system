@@ -61,7 +61,6 @@ public class OrderForm  implements Initializable {
         tblVehicle.setItems(FXCollections.observableArrayList(orderTMS));
 
         SubTotal.setText(String.valueOf(subTotal));
-
         int id = Integer.parseInt((txtID.getText()));
         orderDetailDtos.add(new OrderDetailDto(id,orderQty,total));
     }
