@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxapp.controller.SaveForm">
+   <children>
+      <Label layoutX="241.0" layoutY="14.0" prefHeight="45.0" prefWidth="118.0" text="Save Form" textFill="#f41313">
+         <font>
+            <Font name="Arial Black" size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtId" layoutX="154.0" layoutY="74.0" prefHeight="32.0" prefWidth="290.0" />
+      <TextField fx:id="txtBrand" layoutX="154.0" layoutY="121.0" prefHeight="32.0" prefWidth="290.0" />
+      <TextField fx:id="txtModel" layoutX="155.0" layoutY="168.0" prefHeight="32.0" prefWidth="290.0" />
+      <TextField fx:id="txtQty" layoutX="154.0" layoutY="214.0" prefHeight="32.0" prefWidth="290.0" />
+      <TextField fx:id="txtPrice" layoutX="155.0" layoutY="261.0" prefHeight="32.0" prefWidth="290.0" />
+      <Button layoutX="362.0" layoutY="313.0" mnemonicParsing="false" onAction="#Save" prefHeight="38.0" prefWidth="82.0" style="-fx-background-color: Green;" text="Submit" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="536.0" layoutY="17.0" mnemonicParsing="false" onAction="#Cancel" prefHeight="22.0" prefWidth="38.0" style="-fx-background-color: red;" text="X" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button layoutX="155.0" layoutY="313.0" mnemonicParsing="false" onAction="#Clear" prefHeight="38.0" prefWidth="82.0" style="-fx-background-color: black;" text="Clear" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label layoutX="48.0" layoutY="81.0" prefHeight="27.0" prefWidth="82.0" text="ID -">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="128.0" prefHeight="27.0" prefWidth="82.0" text="Brand -">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="175.0" prefHeight="27.0" prefWidth="82.0" text="Model -">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="221.0" prefHeight="27.0" prefWidth="82.0" text="Quantity -">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="48.0" layoutY="268.0" prefHeight="27.0" prefWidth="82.0" text="Price - ">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+
+   </children>
+</AnchorPane>
